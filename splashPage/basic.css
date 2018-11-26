@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.myname{
+    width:185px;
+}
+    
+}
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top:100px;
+}
+
+html, body {
+    font-size: 12;
+    font-family: 'Noto Serif JP', sans-serif;
+}
+ul {
+    list-style-type: none;
+    width: 100%;
+    /* margin: 0;
+    padding: 0; */
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-top:30px;
+}
+
+li a:hover:not(.active) {
+    /* text-decoration: line-through;
+    text-decoration-color: yellow; */
+    -webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg);
+-o-transform:rotate(-180deg);
+transform:rotate(-180deg);
+ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+.active {
+    background-color:yellow;
+}
