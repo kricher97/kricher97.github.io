@@ -1,0 +1,109 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Noto Serif JP', sans-serif;
+  
+}
+
+.myname{
+  width:185px;
+  padding-right:10px;
+  padding-bottom:0px;
+  
+}
+
+.nav{
+  padding-top:60px;
+  
+}
+.nav:hover{
+  padding-bottom:63px;
+}
+  
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    color: black;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight:lighter;
+}
+
+html, body {
+  /* background-color: white; */
+  margin: 10px;
+  font-size: 12;
+  font-family: 'Noto Serif JP', sans-serif;
+  
+}
+
+.container > div:nth-child(1n) {
+  /* background-color: white;	 */
+
+}
+
+.container > div:nth-child(3n) {
+  /* background-color: white; */
+}
+
+.container > div:nth-child(2n) {
+      /* background-color:white; */
+      
+}
+
+.container > div:nth-child(4n) {
+      /* background-color: white; */
+}
+
+html, body {
+  font-size: 12;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+ul {
+  list-style-type: none;
+  width: 100%;
+  /* margin: 0;
+  padding: 0; */
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  z-index:2
+  
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding-top:30px;
+}
+
+li a:hover:not(.active) {
+  /* text-decoration: line-through;
+  text-decoration-color: yellow; */
+  -webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg);
+-o-transform:rotate(-180deg);
+transform:rotate(-180deg);
+ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+.zoom {
+  transition: transform .1s; /* Animation */
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */

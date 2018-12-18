@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.myname{
+    width:185px;
+    padding-right:10px;
+}
+    
+}
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:2;
+    
+    
+    
+    
+}
+
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top:100px;
+}
+.nav{
+    padding-top:60px;
+
+}
+.nav:hover{
+    padding-bottom:63px;
+}
+
+html, body {
+    font-size: 12;
+    font-family: 'Noto Serif JP', sans-serif;
+}
+ul {
+    list-style-type: none;
+    width: 100%;
+    /* margin: 0;
+    padding: 0; */
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    z-index:1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-top:30px;
+}
+
+li a:hover:not(.active) {
+    /* text-decoration: line-through;
+    text-decoration-color: yellow; */
+    -webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg);
+-o-transform:rotate(-180deg);
+transform:rotate(-180deg);
+ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+.active {
+    background-color:yellow;
+}
+
+.zoom {
+    transition: transform .1s; /* Animation */
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */

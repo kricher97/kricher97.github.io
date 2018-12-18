@@ -2,21 +2,54 @@
     <head>
         <link rel="stylesheet" href="basic.css">
         <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Oswald" rel="stylesheet"> 
-
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet"> 
+        
 
     </head>
     <body>
-            <ul>
-                    <li><a href="#illustration">illustration</a></li>
-                    <li><a href="#design">design</a></li>
-                    <li><a href="#photo">photography</a></li>
-                    <li style="float:right"><a class="active" href="#about">About</a></li>
-                  </ul>
-        <div class="container">
-            <div class="splashPhoto"><img src="skip.JPG"/></div>
+        <ul>    
+            <li><a href="file:///Users/kricher97/Desktop/portfolioSite/splashPage/index.html"><img class="myname" src="myname.jpg"/></a></li>
+            <li><a href="file:///Users/kricher97/Desktop/portfolioSite/illustrationGrid/index.html">illustration</a></li>
+            <li><a href="file:///Users/kricher97/Desktop/portfolioSite/graphicDesign2/index.html">design</a></li>
+            <li><a href="file:///Users/kricher97/Desktop/portfolioSite/photoGrid/index.html">photography</a></li>
+            <li><a class="nav" href="file:///Users/kricher97/Desktop/portfolioSite/aboutMee/index.html">about</a></li>
+        </ul>
+ 
+    
         
     
         </div>
        
     </body>
+
+    <html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+  <img class="mySlides w3-animate splashPhoto" src="nostalgia.jpeg" style="width:100%">
+  <img class="mySlides w3-animate splashPhoto" src="skip.JPG" style="width:100%">
+  <img class="mySlides w3-animate splashPhoto" src="seattlehand.jpg" style="width:100%">
+  
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000);    
+}
+</script>
+
+</body>
+</html>

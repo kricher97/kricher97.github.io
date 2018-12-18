@@ -1,12 +1,16 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 12;
     
 }
 
 .myname{
     width:185px;
     padding-right:10px;
+    padding-bottom:0px;
+    
 }
     
 }
@@ -14,18 +18,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Noto Serif JP', sans-serif;
     
     
     
     
     
 }
+.nav{
+    padding-top:60px;
+    
+}
+.nav:hover{
+    padding-bottom:63px;
+}
 
 .container > div > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    padding-top:100px;
+    padding-top:110px;
 }
 
 html, body {
@@ -55,16 +67,14 @@ li a {
     text-decoration: none;
     padding-top:30px;
 }
-
 li a:hover:not(.active) {
-    /* text-decoration: line-through;
-    text-decoration-color: yellow; */
-    -webkit-transform:rotate(-180deg);
+-webkit-transform:rotate(-180deg);
 -moz-transform:rotate(-180deg);
 -o-transform:rotate(-180deg);
 transform:rotate(-180deg);
 ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
 filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+
 }
 
 .zoom {
