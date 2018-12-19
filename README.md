@@ -1,2 +1,5 @@
 g# portfolioSite
 Hand Coded HTML/CSS/Javascript website for design work
+For my website, my main objective was a crisp, clean but playfu; layout that allowed for my colorful work and images to speak for themselves. With that being said, the design choices I made directly related back to the idea of keeping things very crisp. From my decision to keep all backgrounds white, to my use of a more geometric sans serif, I wanted all choices to feel intentional. 
+The main challenge I had was to use slight animation to make my clean presentation also playful. To do this, i decided to use a few hover animations from the flipping of the nav bar buttons, to the slight zoom that occurs when I hover over my images. For this project, I relied heavily on css grid in order to make responsive photo grids for each of my pages.
+Overall, this project is a step in the direction of how i wish to present myself professionally in the creative workplace. Although some bugs have gotten into the way, I feel my goal of creating a crisp, playful and RESPONSIVE site has been made evident. 
